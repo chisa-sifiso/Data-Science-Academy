@@ -37,14 +37,16 @@
 }
 
 .leaders-text h2 {
-  font-size: 3.5rem;
+  font-family: 'Anton';
+  font-size: 74.4px;
   font-weight: 900;
   margin-bottom: 1.5rem;
   color: #bd48ff;
 }
 
 .leaders-text p {
-  font-size: 1.25rem;
+  font-family:Bricolage Grotesque, sans-serif;
+  font-size: 21.2;
   line-height: 2;
   font-weight: 400;
   max-width: 600px;
@@ -95,11 +97,11 @@ width: 500px;
 
 .team h2 {
   font-family: 'Anton', sans-serif;
-  font-size: 72.4px;
+  font-size: 80px;
   margin-bottom: 5rem;
   margin-top: -70px;
   color: white;
-  letter-spacing: 1px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -587,6 +589,7 @@ button {
 }
 
 .leaders-text h2 {
+   font: 'Anton', sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   margin-bottom: 1.5rem;
@@ -619,11 +622,13 @@ button {
 
 /* heading: bump up a bit so it breaks exactly like your mock */
 .solutions-text h2 {
-  font-size: 2.5rem;              /* increase from 1.8rem */
+  font-family:Anton, sans-serif;
+  font-size: 72.2px;              /* increase from 1.8rem */
   line-height: 1;             /* tighter so “FOR YOU.” can drop cleanly */
-  margin-bottom: 1rem;
+ 
 }
 .solutions-text p {
+  font-family: Bricolage Grotesque, sans-serif;
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
@@ -642,11 +647,14 @@ width: 500px;
   padding: 4rem 2rem;
 }
 .team h2 {
-  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 72.4px;
   margin-bottom: 5rem;
-  margin-top: -70px; /* adjust to match your design */
+  margin-top: -70px;
+  color: white;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
-
 .team-members {
   display: flex;
   flex-wrap: wrap;
@@ -700,13 +708,15 @@ width: 500px;
 
 /* Optional: tweak heading break */
 .learn-content h2 {
+  font-family: 'Anton', sans-serif;
   line-height: 1.2;
-  font-size: 3rem;        /* larger for emphasis */
+  font-size: 72px;        /* larger for emphasis */
   margin-bottom: 1rem;
   margin-bottom: 200px; /* adjust to match your design */
 }
 .learn-content p {
-  font-size: 1.2rem;
+  font-family: Bricolage Grotesque, sans-serif;
+  font-size: 21.2px;
   margin-top: -10rem;
 }
 .learn-content button {
@@ -738,7 +748,8 @@ width: 500px;
 }
 
 .partners-text h3 {
-  font-size: 0.9rem;
+  font-family: Bricolage Grotesque, sans-serif;
+  font-size: 21.1px;
   letter-spacing: 1px;
   opacity: 0.7;
   margin-bottom: 0.5rem;
@@ -747,13 +758,15 @@ width: 500px;
 }
 
 .partners-text h2 {
-  font-size: 1.7rem;
+  font-family: Anton, sans-serif;
+  font-size: 28px;
   line-height: 1.2;
   margin: 0.5rem 0;
 }
 
 .partners-text p {
-  font-size: 1.2rem;
+  font-family: Bricolage Grotesque, sans-serif;
+  font-size: 21.1px;
   line-height: 1.4;
 }
 
