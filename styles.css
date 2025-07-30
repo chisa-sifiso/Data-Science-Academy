@@ -1,3 +1,469 @@
+
+
+/* Leaders Section */
+.leaders-section {
+  background-color: #111936;
+  padding: 0; /* Remove extra space around the section */
+  display: flex;
+  align-items: stretch;
+}
+
+.leaders-content {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-wrap: nowrap;
+}
+
+.leaders-image {
+  flex: 1;
+  overflow: hidden;
+}
+
+.leaders-image img {
+  width: 100%;
+  height: 89vh;
+  object-fit: cover;
+  object-position: left top;
+}
+
+.leaders-text {
+  flex: 1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+
+.leaders-text h2 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  margin-bottom: 1.5rem;
+  color: #bd48ff;
+}
+
+.leaders-text p {
+  font-size: 1.25rem;
+  line-height: 2;
+  font-weight: 400;
+  max-width: 600px;
+}
+
+/* Solutions Section */
+.solutions {
+  display: flex;
+  flex-wrap: wrap;              /* allow wrap on very small screens */
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;                    /* space between text & image */
+  padding: 4rem 2rem;
+}
+
+/* text side */
+.solutions-text {
+  flex: 1 1 200px;              /* grow to fill, but don’t shrink below 400px */
+  max-width: 500px;
+  padding: 1rem;
+}
+
+/* heading: bump up a bit so it breaks exactly like your mock */
+.solutions-text h2 {
+  font-size: 2.5rem;              /* increase from 1.8rem */
+  line-height: 1;             /* tighter so “FOR YOU.” can drop cleanly */
+  margin-bottom: 1rem;
+}
+.solutions-text p {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+/* image side */
+.solutions-img {
+ 
+width: 500px;
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+
+/* Team Section */
+.team {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #111936;
+}
+
+.team h2 {
+  font-family: 'Anton', sans-serif;
+  font-size: 72.4px;
+  margin-bottom: 5rem;
+  margin-top: -70px;
+  color: white;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.team-members div {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team-members img {
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.team-members p {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  font-size: 20.2px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+  margin: 0;
+}
+
+
+
+
+
+/* Learn Section */
+.learn {
+  display: flex;
+  flex-wrap: wrap;          /* stack on very narrow screens */
+  align-items: center;      /* vertical centering */
+  justify-content: space-around;
+  padding: 4rem 2rem;
+  gap: 2rem;                /* space between image & content */
+}
+
+/* banner image */
+.learn-img {
+  flex: 1 1 300px;          /* grow/shrink with a min‑width of 300px */
+  max-width: 450px;
+  width: 100%;
+  display: block;
+}
+
+/* text block */
+.learn-content {
+  flex: 1 1 300px;
+  max-width: 500px;
+  text-align: left;         /* align text to the left */
+}
+
+/* Optional: tweak heading break */
+.learn-content h2 {
+  line-height: 1.2;
+  font-size: 3rem;        /* larger for emphasis */
+  margin-bottom: 1rem;
+  margin-bottom: 200px; /* adjust to match your design */
+}
+.learn-content p {
+  font-size: 1.2rem;
+  margin-top: -10rem;
+}
+.learn-content button {
+  margin-top: 2rem;
+  padding: 12px 24px;
+  font-size: 1rem;
+}
+
+
+/* Partnerships */
+/* Partnerships Section */
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  /* same padding as all your other sections */
+  padding: 4rem 2rem;
+  padding-top: 200px;
+  gap: 2rem;
+}
+
+.partners-text {
+  /* same flex rules as other two‑column sections */
+  flex: 1 1 300px;
+  max-width: 500px;
+  /* no extra left padding here */
+}
+
+.partners-text h3 {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  opacity: 0.7;
+  margin-bottom: 0.5rem;
+  padding-left: 200px;
+  font-weight: bold;
+}
+
+.partners-text h2 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  margin: 0.5rem 0;
+}
+
+.partners-text p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+/* Card */
+.partners-card {
+  position:relative; flex:1 1 300px; max-width:400px;
+  background:rgba(255,255,255,0.1); border-radius:20px;
+  box-shadow:0 8px 24px rgba(0,0,0,0.3);
+  padding:2rem 1.5rem; min-height:360px;
+  margin:0 auto; /* center the card */
+  margin-bottom: 50px; /* space below card */
+  display:flex; align-items:center; justify-content:center;
+}
+.partners-watermark {
+  position:absolute; top:1rem; right:1rem;
+  width:50px; opacity:0.2;
+}
+
+/* Logo stack */
+.partners-list {
+  display:flex; flex-direction:column;
+  justify-content:space-between; height:100%;
+  align-items:center;
+}
+.partner-item {
+  position: relative;
+  width: -800px;
+  height: 140px;           /* define a square “slot” for shadow+logo */
+  display: flex;
+  align-items: center;     /* vertical center */
+  justify-content: center; /* horizontal center */
+}
+.shadow {
+  position:absolute; top:50%; left:50%;
+  transform:translate(-120%,-50%);
+  z-index:1;
+}
+.partners-list .shadow-big {
+  width: 40px !important;      /* force the size */
+  top: 40% !important;          /* move it up a bit */
+  transform: translate(-50%, -50%);
+}
+.shadow-small { width:140px; }
+.partner-item .logo {
+  position: relative;
+  z-index: 2;
+  max-width: 140%;          /* fill up to 80% of that slot */
+  max-height: 50%;         /* maintain aspect ratio */
+  object-fit: contain;
+         /* override any old height rules */
+}
+
+/* mobile: stack text and card */
+@media (max-width: 768px) {
+  .partners {
+    flex-direction: column;
+    text-align: center;
+  }
+  .partners-card {
+    margin: 0 auto;
+  }
+}
+
+
+/* Footer */
+/* Footer: two‑column layout */
+/* Footer: two‑column layout */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  background-color: #111936;
+}
+
+/* Left column */
+.footer-text {
+  flex: 1 1 300px;
+  max-width: 500px;
+  text-align: left;
+}
+
+/* “Contact Us” button with icon */
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(to right, #bd48ff, #ff748c);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 1rem 0;
+}
+.contact-icon {
+  width: 20px;
+  height: auto;
+}
+
+/* Footer logo under the button */
+/* Footer: split into two columns */
+/* Footer: two‑column grid */
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: #111936;
+  gap: 2rem;
+}
+
+/* Left column */
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+/* Heading */
+.footer-text h2 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Footer Contact button tweak */
+.footer-text .contact-btn {
+ 
+  display: inline-flex;        /* shrink‑wraps its contents */
+  align-items: center;
+  gap: 1.8rem;
+  padding: 12px 24px ;          /* tweak these for height/width */
+  border-radius: 30px;         /* same pill shape */
+  width: auto !important;      /* override any 100% widths */
+  max-width: 180px;            /* Optional: cap how wide it can grow */
+  white-space: nowrap;   
+   padding-left: -19px;      /* prevent wrapping */
+}
+
+
+.contact-icon {
+  width: 20px;
+  height: auto;
+}
+
+/* DSA logo */
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Social row */
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+}
+
+/* Right column: reuse hero.png */
+.footer-hero img {
+  max-width: 485px;  /* or whatever px size you need */
+  width: 300%;
+  height: auto;
+  margin: 0 auto;    /* center inside its parent */
+  display: block;
+}
+
+
+
+/* Mobile: stack columns */
+@media (max-width: 768px) {
+  .footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .footer-text, .footer-hero img {
+    margin: 0 auto;
+  }
+}
+
+
+
+/* Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* background image: make it a positioned layer */
+.hero-bg {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+} 
+
+/* overlay container sits above bg */
+.hero-overlay {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* logo */
+.hero-logo {
+  position: absolute;
+  top: -100px;
+  left: -150px;
+  width: 600px;
+  z-index: 3;
+}
+
+/* icons */
+.hero-icon {
+  position: absolute;
+  width: 500px;
+  height: 200px;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+}
+
+/* tweak these to place each icon */
+.icon-phone      { top: 50%; left: 30%; }
+.icon-info       { top: 20%; left: 40%; }
+.icon-education  { top: 20%; left: 65%; }
+.icon-custom     { top: 50%; left: 70%; }
+/* enable smooth scrolling for in‑page anchors */
+html {
+  scroll-behavior: smooth;
+}
 /* Base */
 * {
   margin: 0;
@@ -605,8 +1071,8 @@ button {
 /* icon base */
 .hero-icon {
   position: absolute;
-  width: 400px;   /* adjust as desired */
-  height: px;  /* adjust as desired */
+  width: 100px;   /* adjust as desired */
+  height: auto;  /* adjust as desired */
   z-index: 3;
   transform: translate(-50%, -50%);
   transition: filter 0.2s, transform 0.2s;
@@ -623,11 +1089,11 @@ button {
 }
 
 /* individual positions */
-.icon-phone      { top:  Fifty; left: 30%; }  /* "50%" fix: remove space! */
-.icon-phone      { top: 50%; left: 30%; }
-.icon-info       { top: 20%; left: 40%; }
-.icon-education  { top: 20%; left: 65%; }
-.icon-custom     { top: 50%; left: 75%; }
+ 
+.icon-phone      { top: 34%; left: 34%; }
+.icon-info       { top: 23%; left: 46%; }
+.icon-education  { top: 23%; left: 58%; }
+.icon-custom     { top: 34%; left: 68%; }
 
 /* Navigation */
 .nav-bar {
