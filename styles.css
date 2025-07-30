@@ -635,7 +635,7 @@ button {
 /* image side */
 .solutions-img {
  
-width: 500px;
+width: 600px;
   max-width: 100%;
   margin-bottom: 1rem;
 }
@@ -694,7 +694,7 @@ width: 500px;
 /* banner image */
 .learn-img {
   flex: 1 1 300px;          /* grow/shrink with a min‑width of 300px */
-  max-width: 450px;
+  max-width: 500px;
   width: 100%;
   display: block;
 }
